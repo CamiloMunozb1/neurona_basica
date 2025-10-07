@@ -93,7 +93,7 @@ v_real = 1  # Valor real
 lamb = 0 # Valor de lambda
 
 # Inicio del forwarpass.
-calculadora = ForwarPass() # Instancia de la clase fuente.
+calculadora = ForwardPass() # Instancia de la clase fuente.
 sum_output = calculadora.sumatoria(w,x,b) # Sumatoria para los siguientes pasos.
 sigmoide_output = calculadora.funcion_sigmoide(sum_output) # Instanciar la clase destino, pasando el dato generado como argumento.
 
