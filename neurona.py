@@ -1,7 +1,7 @@
 import math # Librerbia para el uso de operaciones matematicas simples.
 
 # Clase de iniciacion de la neurona donde se manda la informacion hacia adelante.
-class ForwarPass:
+class ForwardPass:
     def __init__(self):
         pass
 
