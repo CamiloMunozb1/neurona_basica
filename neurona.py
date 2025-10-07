@@ -109,4 +109,4 @@ derivada_de_la_sigmoide = retropropagacion.derivada_sigmoide() # Derivada para l
 # Se instancian ambos resultdos ya que usan los mismos valores como la derivada de la entropia, sigmoide, entrada, peso y lambda.
 gradiente_b,gradiente_w = retropropagacion.gradiente_peso_y_sesgo(derivada_de_entropia,derivada_de_la_sigmoide,x,w,lamb) # # se asignan los calculos de ambas derivadas.
 # Se realiza el descenso de la gradiente junto a los valores calculados.
-x,b = retropropagacion.descenso_del_gradiente(x,b,gradiente_w,gradiente_b,a) # se reasigna el peso nuevo y el sesgo nuevo en el descenso
+w,b = retropropagacion.descenso_del_gradiente(x,b,gradiente_w,gradiente_b,a) # se reasigna el peso nuevo y el sesgo nuevo en el descenso
